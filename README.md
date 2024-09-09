@@ -39,11 +39,11 @@ Example for 4 tasks:
 mpirun -np 4 ./pi_montecarlo
 ```
 The program will output:
-- * Estimated value of Pi.
-- * Absolute difference from the reference Pi value (PI25).
-- * Computation time.
+- Estimated value of Pi.
+- Absolute difference from the reference Pi value (PI25).
+- Computation time.
  
 ## Notes
-- * Ensure the MPI environment is properly set up for compilation and execution.
-- * Execution times and performance may vary based on the number of tasks and the computational resources available.
-- * The accuracy of the Pi estimation depends on the number of points generated.
+- Ensure the MPI environment is properly set up for compilation and execution.
+- Execution times and performance may vary based on the number of tasks and the computational resources available.
+- The accuracy of the Pi estimation depends on the number of points generated.
